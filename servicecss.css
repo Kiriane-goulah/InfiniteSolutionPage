@@ -1,0 +1,247 @@
+/*entete*/
+header{
+    width: 100%;
+    height: 91px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.contact-boutton{
+    width: Hug (180px)px;
+    height: Fixed (56.38px)px;
+    margin-right: 4%;
+    padding: 14px 20px 14px 20px;
+    border-radius: 4px;
+    background: linear-gradient(256.45deg, #05A52E 5.81%, #05972A 87.98%);
+    text-decoration: none;
+    color: #F2F2F2;
+}
+nav a{
+     text-decoration: none;
+    color: #000000;
+    padding: 20px 34px 60px 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.12px;
+}
+nav{
+    position: relative;
+    display:flex;
+    width: 60%;
+     height: 100%;
+    text-align: center;
+    justify-content: space-between; 
+    margin: auto;
+}
+
+.logo1{
+    width: 80.76px;
+    height: 33.63px;
+    margin-left: 120px;
+/*main*/
+}
+.texte3{
+    color: #0210334A;
+    font-size: 100px;
+    font-weight: 600px;
+    line-height: 113.52px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.texte4{
+    width: 274px;
+    height: 69px;
+    top: 329px;
+    left: 834px;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 23.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    }
+.main-header {
+    padding: 60px 0px 0px 240px; 
+    height: 228px;
+   margin: auto;  
+}
+ .main-header li{
+    display: inline-block;
+    align-items: center;  
+}
+body{
+    font-family: 'Neometric', sans-serif;
+    font-family: 'Neometric Alt', sans-serif;
+    font-style: normal;
+    background: #F8F5F5;
+}
+.contener1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin:auto;
+    gap: 50px;
+    padding: 100px;
+}
+.texte5{
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 14.76px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 340px;
+    height: 59px;
+    color: #828282;
+}
+.texte6{
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 27.24px;
+    letter-spacing: 0.02em;
+    width: 238px;
+    height: 27px;
+}
+.webdev , .appdev , .graphicdesign, .uidesign{
+    Width :Hug (420px);
+    Height :Hug (297px);
+    padding: 30px 40px 30px 40px;
+    border-radius: 8px ;
+    background: #FEFCFC;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 27.24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+} 
+.Check button{
+    width: Hug (132px);
+    height: Hug (45px);
+padding: 14px 20px 14px 20px;
+gap: 10px;
+border-radius: 4px;
+background: #27AE60;
+}
+.Check a button{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.22px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/*pied de page*/
+
+footer{
+    background-color: #021033;
+    width: 100%;
+}
+ .premier{
+    width: 80%;
+    height: 450px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    padding: 80px;
+    justify-content: center;
+} 
+.premier img{
+    margin-bottom: 20px;
+}
+.premier P{
+    font-size: 15px;
+    line-height: 21.68px;
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 313px;
+    height: 100px;
+}
+
+.premier ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.premier ul a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.12px;
+    text-align: left;
+    color: #F2F2F280;   
+}
+.premier h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34.68px;
+    text-align: left;
+    color: #05A52E;
+}
+.frame{
+    width: 100%;
+}
+.deuxieme{
+    border-top: 3px solid #08256B;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF80;
+    width: 65%;
+    margin:80px 230px 100px 230px;
+}
+
+@media screen and (max-width: 1024px) {
+    header{
+        width: 100%;
+        left: -100px;
+        height: 100px;
+    }
+     nav a{
+        font-size: 10px;
+     }
+    .contact-boutton{
+        margin-right: -100px;
+    }
+    .main-header{
+        padding: 30px 0px 0px 90px;
+    }
+    .contener1{
+        width: 90%;
+        margin:auto;
+        padding: 45px;
+    }
+    .premier {
+        width: 80%;
+        height: 600px;
+        padding: 80px 0px 0px 0px;
+    }
+    .premier P{
+        font-size: 13px;
+        line-height: 20px;
+        width: 260px;
+        height: 130px;
+    }
+    .premier img{
+        width: 80px;
+    }
+    .texte3{
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .texte4{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .deuxieme{
+        margin:80px 230px 100px 130px;
+    }
+     footer{
+        width: 100%;
+    }
+}
+@media all and (min-width: 822px) and (max-width: 1024px){
+    footer{
+        width: 90%;
+    }
+}

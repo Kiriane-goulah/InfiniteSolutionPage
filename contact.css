@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  } */
+  body{
+    font-family: 'Neometric', sans-serif;
+    font-family: 'Neometric Alt', sans-serif;
+    font-style: normal;
+    background: #F8F5F5;
+}
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  
+  .header {
+    background: #fff;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .logo1 {
+    width: 80.76px;
+    height: 80.63px;
+    margin-left: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 78px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .btn-contact {
+    background: #28a745;
+    color: #fff;
+    padding: 14px 20px 14px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  .navbar a:hover{
+    color: #28a745;
+  }
+  /*main*/
+
+/* Réinitialisation */
+
+/* Carte du monde */
+.map-container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.world-map {
+    width: 100%;
+    height: auto;
+}
+
+/* Marqueurs des emplacements */
+.location-marker {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.pin {
+    width: 16px;
+    height: 16px;
+    background: red;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+}
+
+  /*pied de page*/
+
+footer{
+    background-color: #021033;
+    width: 100%;
+}
+ .premier{
+    width: 80%;
+    height: 320px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    padding: 80px;
+    justify-content: center;
+} 
+.premier img{
+    margin-bottom: 20px;
+}
+.premier div{
+    margin: 20px;
+}
+.premier P{
+    font-size: 15px;
+    line-height: 21.68px;
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 313px;
+    height: 100px;
+}
+
+.premier ul li{
+    list-style-type: none;
+    margin: 10px ;
+}
+.premier ul a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.12px;
+    text-align: left;
+    color: #F2F2F280;   
+}
+.premier h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34.68px;
+    text-align: left;
+    color: #05A52E;
+}
+.frame{
+    width: 100%;
+}
+.deuxieme{
+    border-top: 3px solid #08256B;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF80;
+    width: 65%;
+    margin:80px 230px 100px 230px;
+}
